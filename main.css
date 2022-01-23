@@ -1,0 +1,138 @@
+
+/* body {
+  position: relative;
+  background-image: url("http://placekitten.com/100/100");
+} */
+
+p, h1, h2 {
+  color: #ffffed;
+}
+
+.parallax {
+  /* The image used */
+  
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img_background1{
+  background-image: url("images/img_parallax1.jpg");
+}
+.img_background2{
+  background-image: url("images/img_parallax2.jpg");
+}
+.img_background3{
+  background-image: url("images/img_parallax3.jpg");
+}
+
+.titre_margin {
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+
+.projet_get{
+  border-color: white;
+}
+
+
+nav > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #b9b9b9;
+
+}
+.nav-pills .nav-link {
+  background-color: #2a2e33;
+}
+
+.tri_projet .tri_projet_pro .tri_projet_perso{
+  height: 0.6cm;
+  width: 0.6cm;
+}
+
+#bloc1 {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#bloc1 video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#bloc1 .container {
+  position: relative;
+  z-index: 2;
+}
+
+#bloc1 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.card {
+	background: rgb(192, 192, 192);
+	box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin: 0px;
+}
+.card > img {
+	width: 100%;
+}
+.card > div > p {
+	color: black;
+}
+
+.form_center {
+  justify-content: center;
+}
+
+.loader {
+  position : fixed;
+  z-index: 9999;
+  background-color: black;
+  top : 0px;
+  left : 0px;
+  height : 100%;
+  width : 100%;
+  cursor : wait;
+  }
+.loader > h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 8em;
+}
+.loader > h1 > p {
+  font-size: 4em;
+}
+
+.wopacity{
+  opacity: 1 !important; 
+}
